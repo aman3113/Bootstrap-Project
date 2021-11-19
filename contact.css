@@ -1,0 +1,37 @@
+.main{
+    background-image: linear-gradient();
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid purple;
+    border-radius: 15px;
+    background-color: rgb(245, 239, 239);
+    
+}
+.heading{
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    margin: 10px;
+}
+input[type="submit"]
+{
+    width: 100%;
+    padding: 2px 4px;
+    background-color: rgb(58, 214, 105);
+    color: whitesmoke;
+}
+input[type="submit"]:hover{
+    background-color: rgb(120, 245, 120);
+}
+*{
+    box-sizing: content-box;
+}
